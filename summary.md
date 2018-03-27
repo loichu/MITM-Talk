@@ -10,11 +10,12 @@
 * L'outil mitm-proxy
 
 
-## Sénario de la démo
+## Scénario de la démo
 
 **timing**: 10 minutes
 
 **Acteurs**
+
 * Un client
 * Routeur wifi original
 * Routeur wifi mocké (avec CA de mitm-proxy)
@@ -23,6 +24,7 @@
 * Server tequila
 
 **Procédure**
+
 Le client (Loïc) se connecte au réseau wifi du router mocké. Le router mocké
 dirige son trafique vers le proxy. L'attaquant (Yoël) espionne le traffique
 via le proxy. Le client se logue sur tequila et ne se doute de rien. L'attaquant
