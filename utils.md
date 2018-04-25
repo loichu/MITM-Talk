@@ -2,7 +2,7 @@
 
 ## Spell check with vim
 
-`:setlocal spell spelllang=fr,en`
+`:setlocal spell spelllang=fr,en_US`
 
 Correct word: *z=*
 
