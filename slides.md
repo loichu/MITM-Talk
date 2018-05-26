@@ -16,7 +16,7 @@ Il est facile pour un postier de lire une lettre qu'il doit livrer. C'est plus c
 
 # Clés asymétriques: Introduction
 
-Au moyen âge, un espion est en mission dans un royaume éloigné à plusieurs jours de marche. Il doit envoyer à son roi des information confidentielles. Si quelqu'un intercepte le message, il se fait décapiter.
+Au moyen âge, un espion est en mission dans un royaume éloigné à plusieurs jours de marche. Il doit envoyer à son roi des informations confidentielles. Si quelqu'un intercepte le message, il se fait décapiter.
 
 Comment procède-t-il ?
 
@@ -50,7 +50,7 @@ Le protocole HTTPS est composé de deux parties :
 
 ## Introduction
 
-Le protocole HTTP (HypetText Transfert Protocole) est un protocole de couche 7 qui permet transfert de fichiers (principalement des fichiers html, sous format de texte brut) accessibles par une chaine de caractères (URL).
+Le protocole HTTP (HypetText Transfert Protocole) est un protocole de couche 7 qui permet le transfert de fichiers (principalement des fichiers html, sous format de texte brut) accessibles par une chaîne de caractères (URL).
 
 ---
 
@@ -62,9 +62,9 @@ Le fonctionnement du protocole est très simple, le client fait une **requête**
 
 ---
 
-# La requête http
+# La requête HTTP
 
-Une **requête** http est composée de trois éléments :
+Une **requête** HTTP est composée de trois éléments :
 
   1. Une ligne requête (méthode + URL + version du protocole)
   1. Plusieurs lignes d'entête (le navigateur, le système d'exploitation, etc...)
@@ -72,13 +72,13 @@ Une **requête** http est composée de trois éléments :
 
 ---
 
-# La réponse http
+# La réponse HTTP
 
-Une **réponse** http est composée également de 3 éléments principaux :
+Une **réponse** HTTP est composée également de 3 éléments principaux :
 
   1. Une ligne de status (version du protocole + code + explication littérale du code)
   1. Plusieurs lignes d'entête (serveur, langue du document)
-  1. le corps de la réponse contenant le document demandé
+  1. Le corps de la réponse contenant le document demandé
 
 C'est bien joli tout ça, mais ça se passe comment lorsque l'on veut transférer des données sensibles ?
 
@@ -111,14 +111,14 @@ Cet outil permet de:
 
 # mitm-proxy: Pourquoi c'est cool ?
 
-* Open Source: [https://github.com/mitmproxy/mitmproxy/](https://github.com/mitmproxy/mitmproxy/)
-* Customizable à travers une API python pour mitmdump
+* Open Source : [https://github.com/mitmproxy/mitmproxy/](https://github.com/mitmproxy/mitmproxy/)
+* Personnalisable à travers une API python pour mitmdump
 
 ---
 
 # Conclusion
 
-Pas si facile de de faire un MITM sur du https... Mais facile de s'en prémunir !
+Pas si facile de faire un MITM sur du HTTPS... Mais facile de s'en prémunir !
 
 Comment outrepasser la sécurité des certificats ?
 
